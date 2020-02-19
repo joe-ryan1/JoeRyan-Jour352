@@ -1,25 +1,53 @@
+
+/* styles for my resume */
+
+
+/* This is ALL of the text */
 body {
   font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 1 em;
+  font-size: 1em;
   color: #444;
+  font-weight: 400;
 }
 
+/* This is my big name across the top of the page */
 h1 {
-  font-size: 3 em;
+  font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 400;
 }
 
+/* This is the header for experience, education, and skills with the blue background */
 h2 {
-  font-size: 1.5 em;
+  font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: #fff;
   font-weight: 400;
 }
 
+/* This is the job titles */
 h3 {
-  font-size: 1.5 em;
+  font-size: 1.5em;
   font-weight: 600;
+}
+
+/* This is the organization/company */
+h4 {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+/* This is the dates that I worked there */
+h5 {
+  font-weight: 400;
+  font-size: 1em;
+  font-style: italic;
+}
+
+/* This is all of the bullet points, like contacts, education, and skills */
+li {
+  font-size: 1em;
 }
