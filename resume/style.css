@@ -10,44 +10,103 @@ body {
   font-weight: 400;
 }
 
+/* This is a containter for styling ALL of the content on the page and making
+sure it looks good on the screen */
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
 /* This is my big name across the top of the page */
-h1 {
+#name {
   font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
   font-weight: 400;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+#title {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  color: #33485e;
+  font-size: 1.5em;
+}
+
+/* This is the list all of the contact info across the top under my name */
+.menu {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+/* This is targeting just the items in the menu list across the top */
+.menu li {
+  display: inline;
 }
 
 /* This is the header for experience, education, and skills with the blue background */
-h2 {
+.sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: #fff;
   font-weight: 400;
+  margin: 20px 0px 10px 0px;
+  width: 70%;
+  min-width: 300px;
 }
 
 /* This is the job titles */
-h3 {
+.jobtitle {
   font-size: 1.5em;
   font-weight: 600;
 }
 
 /* This is the organization/company */
-h4 {
+.organization {
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 /* This is the dates that I worked there */
-h5 {
+.date {
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
+  margin: 10px 0px;
+}
+
+/* This is styling for all of the paragraphs describing the job */
+.description {
+  margin: 10px 0px;
+}
+
+/* This is all of the degrees under "education" */
+.degrees {
+  margin-top: 5px;
+}
+
+/* This is the list of my skills */
+.do {
+  top-margin: 5px;
 }
 
 /* This is all of the bullet points, like contacts, education, and skills */
 li {
   font-size: 1em;
+}
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
