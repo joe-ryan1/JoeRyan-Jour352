@@ -11,7 +11,7 @@ p {
 #headline {
   font-size: 30px;
   font-family: Georgia, serif;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 10px;
 }
 
@@ -19,15 +19,29 @@ p {
   font-size: 17px;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 600;
+  margin-top: 40px;
 }
 
 #mainsub {
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 #byline, #date, #publication {
-  font-size: 14px;
+  font-size: 13px;
   font-family: Helvetica, Arial, sans-serif;
+  font-style: italic;
+}
+
+.caption {
+  margin-top: 3px;
+  margin-bottom: 20px;
+  font-style: italic;
+  font-size: 11px;
+}
+
+.bodyphoto {
+  margin-top: 20px;
 }
 
 /* This is the pullquote, which uses a font from Google Fonts and adds some color to the page */
@@ -37,4 +51,26 @@ blockquote {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 25px;
   padding: 20px;
+}
+
+.name {
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.question{
+  font-style: italic;
+  margin-top: 20px;
+}
+
+#related {
+  font-style: italic;
+  font-weight: 600;
+}
+
+li {
+  padding: 5px;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 600;
 }
