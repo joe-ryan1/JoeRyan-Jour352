@@ -1,0 +1,40 @@
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+#headline {
+  font-size: 30px;
+  font-family: Georgia, serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.subhead {
+  font-size: 17px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+
+#mainsub {
+  margin-bottom: 20px;
+}
+
+#byline, #date, #publication {
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* This is the pullquote, which uses a font from Google Fonts and adds some color to the page */
+blockquote {
+  color: #d6591a;
+  background-color: #ebe6ce;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px;
+  padding: 20px;
+}
