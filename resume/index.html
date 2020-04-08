@@ -5,6 +5,8 @@
   <head>
     <title>Joe Ryan Resume</title>
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
@@ -17,66 +19,104 @@
 
   <div id="container">
 
-    <div id="name">Joe Ryan</div>
+    <div class="navbar">
 
-    <!--
-    <img src="joe-ryan.jpg" alt="A photo of Joe Ryan" width="300px">
-  -->
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="#joe-ryan">Joe Ryan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+      </ul>
+
+    </div>
+
+    <div id="banner">
+      <img src="joe-ryan-banner.jpg" alt="Banner" width="100%">
+    </div>
 
     <ul class="menu">
-      <li>
-        <a href="mailto:jryan1@terpmail.umd.edu">jryan1@terpmail.umd.edu</a>
+      <li class="menu-item">
+        <a href="mailto:jryan1@terpmail.umd.edu"><img src="gmail-logo.png" alt="jryan1@terpmail.umd.edu" width="30px"></a>
       </li>
-      <li>
-        <a href="https://joeryanphotography.weebly.com/" target="_blank">Portfolio</a>
+      <li class="menu-item">
+        <a href="https://joeryanphotography.weebly.com/" target="_blank"><img src="weebly-logo.png" alt="Portfolio" width="30px"></a>
       </li>
-      <li>
-        <a href="https://twitter.com/Joe_Leo_Ryan" target="_blank">Twitter</a>
+      <li class="menu-item">
+        <a href="https://twitter.com/Joe_Leo_Ryan" target="_blank"><img src="twitter-logo.png" alt="Twitter" width="30px"></a>
       </li>
-      <li>
-        <a href="https://www.linkedin.com/in/joe-ryan-701059172/" target="_blank">LinkedIn</a>
+      <li class="menu-item">
+        <a href="https://www.linkedin.com/in/joe-ryan-701059172/" target="_blank"><img src="linkedin-logo.png" alt="LinkedIn" width="30px"></a>
       </li>
-      <li>
-        <a href="https://github.com/joe-ryan1" target="_blank">Github</a>
+      <li class="menu-item">
+        <a href="https://github.com/joe-ryan1" target="_blank"><img src="github-logo.png" alt="Github" width="30px"></a>
       </li>
     </ul>
 
-    <div id="title">PHOTOJOURNALIST</div>
+    <div class="grid" id="top-grid">
 
-    <p class="top">I am a photojournalist specializing in still photography for newspapers
-      and online publications. I have experience producing photos for a newspaper
-      as well as creating compelling photo essays.</p>
+      <a name="joe-ryan"></a>
 
-    <div class="sectionheader">Experience:</div>
-      <div class="jobtitle">Assistant Photo Editor</div>
-      <div class="organization">The Diamondback</div>
-      <div class="date">March 2020 – Present</div>
-      <p class="description">I fill in for the photo editor when they are unavailable. I choose photos to be used for stories and create photo essays on various subjects. I also attend news, diversions and photo meetings, and take on extra assignments when other photographers are unavailable.</p>
+      <div id="photo">
+        <img src="joe-ryan.jpg" alt="A photo of Joe Ryan" width="300px">
 
-      <div class="jobtitle">Senior Staff Photographer</div>
-      <div class="organization">The Diamondback</div>
-      <div class="date">November 2019 – Present</div>
-      <p class="description">I take on 2-3 assignments every week taking photos for various stories, often requiring different approaches to photography. I attend local university and government meetings, and contact sources for stories to get portraits. I also attend large sports games throughout the semester like basketball and football, as well as smaller sports like lacrosse, gymnastics, baseball, and soccer. I need to be flexible and quick on my feet as new assignments are constantly popping up that need photos.</p>
+        <div id="name">Joe Ryan</div>
+      </div>
 
-      <div class="jobtitle">News & Sports Photographer</div>
-      <div class="organization">The Diamondback</div>
-      <div class="date">September 2018 – November 2019</div>
-      <p class="description">I was responsible for taking 2 assignments per week, covering a range
-        of story types and photography approaches. I attended small sports games
-        on occasion like soccer and lacrosse.</p>
+    <div id="titledesc">
+      <div id="title">PHOTOJOURNALIST</div>
 
-    <div class="sectionheader">Education:</div>
+      <p class="top">I am a photojournalist specializing in still photography for newspapers
+        and online publications. I have experience producing photos for a newspaper
+        as well as creating compelling photo essays.</p>
+    </div>
+
+    </div>
+
+      <a name="experience"></a>
+      <div class="sectionheader">Experience</div>
+      <div class="experience">
+      <div class="job">
+        <div class="jobtitle">Assistant Photo Editor</div>
+        <div class="organization">The Diamondback</div>
+        <div class="date">March 2020 – Present</div>
+        <p class="description">I fill in for the photo editor when they are unavailable. I choose photos to be used for stories and create photo essays on various subjects. I also attend news, diversions and photo meetings, and take on extra assignments when other photographers are unavailable.</p>
+      </div>
+
+      <div class="job">
+        <div class="jobtitle">Senior Staff Photographer</div>
+        <div class="organization">The Diamondback</div>
+        <div class="date">November 2019 – Present</div>
+        <p class="description">I take on 2-3 assignments every week taking photos for various stories, often requiring different approaches to photography. I attend local university and government meetings, and contact sources for stories to get portraits. I also attend large sports games throughout the semester like basketball and football, as well as smaller sports like lacrosse, gymnastics, baseball, and soccer. I need to be flexible and quick on my feet as new assignments are constantly popping up that need photos.</p>
+      </div>
+
+      <div class="job">
+        <div class="jobtitle">News & Sports Photographer</div>
+        <div class="organization">The Diamondback</div>
+        <div class="date">September 2018 – November 2019</div>
+        <p class="description">I was responsible for taking 2 assignments per week, covering a range
+          of story types and photography approaches. I attended small sports games
+          on occasion like soccer and lacrosse.</p>
+        </div>
+    </div>
+
+    <div class="sectionheader">Education</div>
       <ul class="degrees">
         <li>Bachelor of Arts, Journalism, Minor in Spanish, University of
           Maryland, 2022</li>
       </ul>
 
-    <div class="sectionheader">Skills:</div>
-      <ul class="do">
-        <li>Adobe Lightroom and Photoshop</li>
-        <li>Photography</li>
-        <li>Spanish (Intermediate)</li>
-      </ul>
+    <a name="skills"></a>
+    <div class="sectionheader">Skills</div>
+    <div class="skills">
+      <p class="skillname">Adobe Lightroom and Photoshop</p>
+      <p class="skillname">Photography</p>
+      <p class="skillname">Spanish (Intermediate)</p>
+    </div>
 
   </div>
   </body>
